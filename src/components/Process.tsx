@@ -50,7 +50,7 @@ export function Process() {
             <div className="h-px w-12 bg-brass" />
           </div>
           <h2
-            className={`font-serif text-4xl md:text-5xl font-medium text-charcoal leading-tight mb-6 ${
+            className={`font-serif text-3xl sm:text-4xl md:text-5xl font-medium text-charcoal leading-tight mb-6 ${
               isInView ? "animate-fade-in-up" : "opacity-0"
             }`}
           >

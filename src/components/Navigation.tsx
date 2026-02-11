@@ -95,7 +95,7 @@ export function Navigation() {
             isMobileMenuOpen ? "max-h-96 opacity-100 mt-6" : "max-h-0 opacity-0"
           }`}
         >
-          <div className="bg-cream/98 backdrop-blur-md rounded-sm border border-cream-medium p-6 space-y-4">
+          <div className="bg-cream/95 backdrop-blur-md rounded-sm border border-cream-medium p-6 space-y-4">
             {navLinks.map((link) => (
               <a
                 key={link.href}

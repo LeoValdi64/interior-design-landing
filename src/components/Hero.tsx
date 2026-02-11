@@ -4,7 +4,7 @@ import { ArrowDown } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
+    <section className="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
       {/* Background Image Overlay */}
       <div className="absolute inset-0 bg-charcoal">
         <div
@@ -19,8 +19,8 @@ export function Hero() {
       </div>
 
       {/* Decorative Elements */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] md:w-[700px] md:h-[700px] border border-brass/10 rounded-full" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] md:w-[550px] md:h-[550px] border border-brass/5 rounded-full" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[280px] h-[280px] md:w-[700px] md:h-[700px] border border-brass/10 rounded-full" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[220px] h-[220px] md:w-[550px] md:h-[550px] border border-brass/5 rounded-full" />
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
@@ -34,27 +34,27 @@ export function Hero() {
           </div>
         </div>
 
-        <h1 className="animate-fade-in-up font-serif text-5xl md:text-7xl lg:text-8xl font-medium text-white leading-[1.1] mb-6">
+        <h1 className="animate-fade-in-up font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-medium text-white leading-[1.1] mb-6">
           Spaces That
           <br />
           <span className="text-brass-light italic">Inspire</span>
         </h1>
 
-        <p className="animate-fade-in-up delay-200 text-white/70 text-lg md:text-xl font-light leading-relaxed max-w-2xl mx-auto mb-12">
+        <p className="animate-fade-in-up delay-200 text-white/70 text-base md:text-xl font-light leading-relaxed max-w-2xl mx-auto mb-10 md:mb-12">
           Where refined aesthetics meet purposeful design. We craft extraordinary
           interiors that elevate the way you live, work, and gather.
         </p>
 
-        <div className="animate-fade-in-up delay-400 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div className="animate-fade-in-up delay-400 flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
           <a
             href="#contact"
-            className="group bg-brass px-10 py-4 text-sm font-medium tracking-wider uppercase text-white transition-all duration-300 hover:bg-brass-dark"
+            className="group w-full sm:w-auto text-center bg-brass px-10 py-4 text-sm font-medium tracking-wider uppercase text-white transition-all duration-300 hover:bg-brass-dark"
           >
             Book a Consultation
           </a>
           <a
             href="#portfolio"
-            className="border border-white/30 px-10 py-4 text-sm font-medium tracking-wider uppercase text-white transition-all duration-300 hover:border-brass hover:text-brass"
+            className="w-full sm:w-auto text-center border border-white/30 px-10 py-4 text-sm font-medium tracking-wider uppercase text-white transition-all duration-300 hover:border-brass hover:text-brass"
           >
             View Our Work
           </a>

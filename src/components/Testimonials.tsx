@@ -72,7 +72,7 @@ export function Testimonials() {
             <div className="h-px w-12 bg-brass" />
           </div>
           <h2
-            className={`font-serif text-4xl md:text-5xl font-medium text-charcoal leading-tight ${
+            className={`font-serif text-3xl sm:text-4xl md:text-5xl font-medium text-charcoal leading-tight ${
               isInView ? "animate-fade-in-up" : "opacity-0"
             }`}
           >
@@ -86,7 +86,7 @@ export function Testimonials() {
             isInView ? "animate-fade-in" : "opacity-0"
           }`}
         >
-          <div className="relative bg-white p-10 md:p-16">
+          <div className="relative bg-white p-6 sm:p-10 md:p-16">
             {/* Quote Icon */}
             <Quote className="h-12 w-12 text-brass/20 mb-8" />
 
@@ -101,12 +101,12 @@ export function Testimonials() {
             </div>
 
             {/* Quote Text */}
-            <blockquote className="font-serif text-xl md:text-2xl text-charcoal leading-relaxed mb-10 min-h-[120px]">
+            <blockquote className="font-serif text-lg sm:text-xl md:text-2xl text-charcoal leading-relaxed mb-10 min-h-[100px] sm:min-h-[120px]">
               &ldquo;{testimonial.text}&rdquo;
             </blockquote>
 
             {/* Author */}
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
               <div>
                 <div className="font-serif text-lg font-medium text-charcoal">
                   {testimonial.name}

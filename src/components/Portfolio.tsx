@@ -58,7 +58,7 @@ export function Portfolio() {
             <div className="h-px w-12 bg-brass" />
           </div>
           <h2
-            className={`font-serif text-4xl md:text-5xl font-medium text-white leading-tight mb-6 ${
+            className={`font-serif text-3xl sm:text-4xl md:text-5xl font-medium text-white leading-tight mb-6 ${
               isInView ? "animate-fade-in-up" : "opacity-0"
             }`}
           >
@@ -90,7 +90,7 @@ export function Portfolio() {
               <div className="absolute inset-0 bg-gradient-to-t from-charcoal/90 via-charcoal/20 to-transparent opacity-60 transition-opacity duration-500 group-hover:opacity-90" />
 
               {/* Content */}
-              <div className="absolute inset-0 flex flex-col justify-end p-8">
+              <div className="absolute inset-0 flex flex-col justify-end p-5 sm:p-8">
                 <div className="transform transition-transform duration-500 translate-y-4 group-hover:translate-y-0">
                   <span className="text-brass text-xs tracking-[0.3em] uppercase font-medium mb-2 block">
                     {project.category}

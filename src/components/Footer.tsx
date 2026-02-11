@@ -130,9 +130,9 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
           <p className="text-white/30 text-xs font-light tracking-wider">
-            {new Date().getFullYear()} Atelier Luxe Interiors. All rights
+            &copy; {new Date().getFullYear()} Atelier Luxe Interiors. All rights
             reserved.
           </p>
           <div className="flex items-center gap-6">
@@ -155,7 +155,7 @@ export function Footer() {
       {/* Back to Top */}
       <a
         href="#"
-        className="fixed bottom-8 right-8 w-12 h-12 bg-brass flex items-center justify-center text-white shadow-lg transition-all duration-300 hover:bg-brass-dark hover:-translate-y-1 z-40"
+        className="fixed bottom-4 right-4 sm:bottom-8 sm:right-8 w-10 h-10 sm:w-12 sm:h-12 bg-brass flex items-center justify-center text-white shadow-lg transition-all duration-300 hover:bg-brass-dark hover:-translate-y-1 z-40"
         aria-label="Back to top"
       >
         <ArrowUp className="h-5 w-5" />

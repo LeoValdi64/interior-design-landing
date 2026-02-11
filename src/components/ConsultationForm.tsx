@@ -61,7 +61,7 @@ export function ConsultationForm() {
             <div className="h-px w-12 bg-brass" />
           </div>
           <h2
-            className={`font-serif text-4xl md:text-5xl font-medium text-white leading-tight mb-6 ${
+            className={`font-serif text-3xl sm:text-4xl md:text-5xl font-medium text-white leading-tight mb-6 ${
               isInView ? "animate-fade-in-up" : "opacity-0"
             }`}
           >
@@ -73,7 +73,7 @@ export function ConsultationForm() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 lg:gap-16">
           {/* Contact Info */}
           <div
             className={`lg:col-span-2 ${
@@ -113,7 +113,7 @@ export function ConsultationForm() {
                     <Mail className="h-5 w-5 text-brass flex-shrink-0" />
                     <a
                       href="mailto:hello@atelierluxeinteriors.com"
-                      className="text-white font-light hover:text-brass transition-colors duration-300"
+                      className="text-white font-light hover:text-brass transition-colors duration-300 break-all sm:break-normal"
                     >
                       hello@atelierluxeinteriors.com
                     </a>
@@ -276,7 +276,7 @@ export function ConsultationForm() {
 
                 <button
                   type="submit"
-                  className="group mt-4 bg-brass px-12 py-4 text-sm font-medium tracking-wider uppercase text-white transition-all duration-300 hover:bg-brass-dark flex items-center gap-3"
+                  className="group mt-4 w-full sm:w-auto bg-brass px-12 py-4 text-sm font-medium tracking-wider uppercase text-white transition-all duration-300 hover:bg-brass-dark flex items-center justify-center sm:justify-start gap-3"
                 >
                   Request Consultation
                   <Send className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />

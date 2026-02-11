@@ -65,7 +65,7 @@ export function Services() {
             <div className="h-px w-12 bg-brass" />
           </div>
           <h2
-            className={`font-serif text-4xl md:text-5xl font-medium text-charcoal leading-tight mb-6 ${
+            className={`font-serif text-3xl sm:text-4xl md:text-5xl font-medium text-charcoal leading-tight mb-6 ${
               isInView ? "animate-fade-in-up" : "opacity-0"
             }`}
           >
@@ -82,7 +82,7 @@ export function Services() {
           {services.map((service, index) => (
             <div
               key={service.title}
-              className={`group relative bg-white p-10 transition-all duration-500 hover:shadow-lg hover:-translate-y-1 ${
+              className={`group relative bg-white p-6 sm:p-10 transition-all duration-500 hover:shadow-lg hover:-translate-y-1 ${
                 isInView ? "animate-fade-in-up" : "opacity-0"
               }`}
               style={{ animationDelay: `${index * 100}ms` }}
